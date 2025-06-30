@@ -1,0 +1,141 @@
+<!-- list -->
+ <!-- there are two types of list -->
+  <!-- ordered list -->
+    <!-- undered list   -->
+   
+   <html>
+   <body>
+    
+   <!-- ordered list- Its is used to give the value with its index.  -->
+   <ol>
+        <li> Apple</li>
+       <li>Mango</li>
+       <li>Kiwi</li>
+      <li>Grapes</li>
+    </ol>
+ <!-- Attributes use to give additional information  about the tag ,it always used with opening tag. -->
+    <!-- Attributes             <opening-tag attribute -name="value"></opening-tag> -->
+
+    <ol type="A">
+        <li> Apple</li>
+       <li>Mango</li>
+       <li>Kiwi</li>
+      <li>Grapes</li>
+    </ol>
+     <ol type="I">
+        <li> Apple</li>
+       <li>Mango</li>
+       <li>Kiwi</li>
+      <li>Grapes</li>
+    </ol>
+
+     <ol type="a">
+        <li> Apple</li>
+       <li>Mango</li>
+       <li>Kiwi</li>
+      <li>Grapes</li>
+    
+    </ol>
+
+ <!-- unorderedlist - It is used to give the value in bullet points--> 
+ <!-- defualt bullet sytle is disc in unorderedlist -->
+ <ul>
+        <li> Mern</li>
+       <li>Java</li>
+       <li>Python</li>
+      <li>HTML</li>
+    </ul>
+<p> With different bullets style</p>
+    <!-- There are 3 types of bullets in unorderedlist - disc,circle,square  -->
+    <ul type="disc">
+        <li> Mern</li>
+       <li>Java</li>
+       <li>Python</li>
+      <li>HTML</li>
+    </ul>
+
+    <ul type="circle">
+        <li> Mern</li>
+       <li>Java</li>
+       <li>Python</li>
+      <li>HTML</li>
+    </ul>
+    <ul type="square">
+        <li> Mern</li>
+       <li>Java</li>
+       <li>Python</li>
+      <li>HTML</li>
+    </ul>
+
+    <!-- shortcut for multiple li is --- li* no.of li -->
+     <ol>
+        <li>1</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+     </ol>
+
+
+
+     <!-- To make list inside list(sublist) inside list can be ul or ol-->
+<ul type="square">
+        <li> Mern</li>
+       <li>Java</li>
+       <li>Python</li>
+      <li>Makeup
+
+        <ul>
+            <li>blush</li>
+            <li>Eyeliner</li>
+        </ul>
+
+      </li>
+    </ul>
+
+<!-- to insert img  ,its is self closing tag, It is non container tag 
+ non Container tag are those  which does not have closing-->
+<!-- src,alt are attribute of image -->
+ <!-- src-source -->
+  <!-- alt-alternate  if the source image does not display then the alternate text will appear-->
+
+
+<!-- by address  we have to copy image address from net. -->
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSExIVFRUVFRUVFRUVFRUXFRUWFRUWFhUVFRUYHSggGBolHRUWITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0iIB8tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLS0tKy0tLS0tLS0tLf/AABEIAOAA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAQIHAAj/xABBEAABAwIEAwYDBwIEBAcAAAABAAIDBBEFEiExQVFhBhMicYGhMpGxBxRCUmLB0YLwIzNy4ZKistIVFiQlQ1PC/8QAGgEAAgMBAQAAAAAAAAAAAAAAAwQAAQIFBv/EACoRAAICAgIBAwMDBQAAAAAAAAABAhEDIQQSMRNBUSJhsRQycTNCodHw/9oADAMBAAIRAxEAPwCrRRkOsi6htgh6OQOOqKqXCy5vZyYo32F7YytXxFHw5bLSWdgTKSSC6QE2EqXuiiGSNWXSN5qUWASwoFzdbJlPUtHFLY6gOeCOY+qFkdFE8tFrZbtpwETOS02OnH5oZ8o5qoPsiwepagXNRMtSDsog0nYKSTTJRE1hJsmdG4xPBOx0KxS03FFOgJ3VONooZV0OZt1XZqJ4uQ0kc1ZqI3Zl5JbiLngFoNgUBXFmhTSSFrk4jN0pipyT1TeOINAHHimEyUbFZa1agLYaqFGwKzIRY30XhZavetWQzh7/AA6ozvgOKXhyyCqsgd976KVr76oBpAXnyFXZBilmPVQYy3Eqb77be1uZNvdV3Fp2yv8A8wAbagked23uPRS7IB/eV5DW/vVeWtEHcTzfQpnTRF41KCjhTmjZZp8kNxSQN/StCWRxDiLoWpejamBxcSl08ZugdXdg2myLvnc0LPUO/MUWY7BLpjcpjGzUGzMd3bkpzhMF5Ixzewf8wS+njVw7KYSXETOtlZq0DUudbTblfbe9kLPkSRdtsj7WwkZHtGhaRp+lx/YhU2Soc7QLp9VSCWAsJ8bDmFtSCfiFxxGiSnDmO+NoJFhe/IbBB43IUFtBolZoKEnUpmyIDQIypgyjTVvAp52W7FT1bBMHNjhz5S5187gPiMbbWPIEm109GXqeDe3oRws5AnyF1vJE4Na4ghr75HcHZTY2PQrrv/hjIGCKJuVoHqeZcfxE80tnw9kre6e0Fu4A0ykcW22KN6Iz+k1dnNaV5BUmJRXF1dJewbd45yOj2A/8zSPooz2MmcLZ4/O7v4S+Tjyu0C/TzXsc/pI9zyRB1VyP2fThvhkiceV3D3st6PsBPu98bPm8jrYWHutLDP4MvDPxRTHMstSrL2s7Ofde7LXF7XgglwAIe3cWHAg3HkUgEPFVKDi6YOUXF0yDZYU5jA+I26cfktHS/lH8rDpGTzY+enmskgaDVECjNi551tfLy5ZuXkoA3lqsxlb0SjFyvZVKGqKomDGlx9ANLoiILsVk0ygjfXU38rWtb1SORhCZudmNwN+pPuVDUiwW1DRBcvLbMF5V1IP4nv5JnBVm1spSunq7GxR7anTRAupbBSlvZpPWNHCyWVDw43CJrrkbIenplc8l6L9T4QPObiyEFML3Tx2HZksqoCw2VRTSNXZJTRg2HE6LpOH0bWxtj/A0WsCRmN/G5xGpBN9FzjC3WkjP62/9QXQqKU5Ln+wlOU/CJ4C6ONjM5AAuSSLactEPQYe+WYRxtub3HINvqSeCFZUEOtwN/O66l2ZwkU0Aaf8AMd4pD1P4fIbfNb4uB5X9g0I2KcH7C00XimAmfvYi0Q1/J+L1+QVneQBYaACwA2A5ALEkihc9duEIwVRQ3GAHVMusQ4e1vicLu9h/KOgi/EfT+VrOwrVBu9ugCYrRq3lbbdRqNDK8BUTlO4oJj1OyVWgcoskmoIpW5ZY2yNvcB7Q4A7XF9jqUixfsLDICYHmB3K2ZnyOo9CrIx62zqOn5FZw7eTjdb2SqYngSMAbc3kaczXa+HKeHPWx1UlHgVjdpvrva5A6cG+epXYHtDgWuALSLEHUEKidtqd1OxjIhljkOXONmWFzmN7k2BtzsuZyOM4rtHYB4d6Kdj0zWkRMGhJueZFr+LidRdRU1MTbhfidALC7iTyA1KJrKmJ4bJLoyE5Y4mkAu01B46kAk7lVjEcdkJOUDMdGMscobe9gBwGh13NuSHBdV1Xkxlh1dDevnjF8oOVugNjdx/Mfy35ckirJi8W0sNhYfXdDR0c0pLnuOuttQB5DgmcGGNb5phKloCL4WHkVBWOPJPHQW4rTIVrZLKz3a8rJ3XQfJZVbJZiembdbMsAhhUXCidKkXchZqQbYuR9PS6IDDqxuxR7q0cEzjhq2GhEMZGAkGNwXcmjawJdVz5iiyWjdAUMNla8MrszLX1G6F7M9m56x5bEAA2xe95sxl9tgSSbHQey6Fh32b08djJLLI62uWzGeg1Puhy4ryxNxxuQg7JQd7WRNPwgl5/o8X1AXUqqawKU4b2dpqd/eRsIeAW5i9xNjuLE24DgpcQksEzx8LxQpj2DDumY+9lEwypC2QoynlJNkwh+eFUODOo5JOJQjqkDbdB1FSVsHDA2EOqNStHyJU6p1W7ai6yN+hQwEiz3nEIenjL9tuZ2TKOgHF3yUBTcY6ZmlnuESJEMcO4tdr12Khe5zTZwt9D5FRoXajJ6GbXoTG6AVEEkOmZzTkLr2a8ascbcjZQCpW/wB7ssmXhZwXEI3CVzHXuxxab73boR8wVnCmBznG2wH1IP7J32+p8lW+QCzZRnB/VoHj52P9SrWGG5dYm4PAkbrmxi1kaOdlTUmmWBrQvFqFjneBr4lMyUHp0KasCZLVGQFPlXsqhRB6H5LynsvKEKvCQeKyZAhGhFRRgpSkSzLqbM05fiFnDq1RUAkc7Ib66Dz4JkIT4Xs3boR5IsxkOZKwW8QNuRvdY9Rx0aVMDbC4DUrampXyPbHG0ue8hrWjck7BW3FsLY9jZWB4fJ4sttLncWtcG/BWv7PuzBp71MzSJXAtja7djD8TiODnbdBfmU1jucqCrE2ywdlcCbRU4iBBeTnldwc+wBt+kWsPK/FM3P5KOSVYpzc+SdSrSHYw6okeLeaWVmqPncls9yroPhW7F0g1sFl8+QW48VFUzkEhBF9zdQ6kcfZW/ASJ9Vs6Qcd0IZhezdTz/hQPkOa1xcnTiVAvp2NY7b2HmVMNeRQLKW3xSeg3+aKijjGxPzVgJJewSx7hwU8daRuoWsB2J+aFqeR0PAqwPSMnQ9irAUQcrxY8VUYqwtNjunFJWXVXYHLxXHaBqppjeWnzB5jgUNLPoj8YYXgPbqWg3HEjp5fukbnXHNDlphIO478lU+0iUdww8e9AHqx1/oPkqHhdTqrN9p85yQtOl3vPoABv/UqnhTfEguO7ONy/6jLLFLrrsUTlQ0bNERFyUoVN23GykEh5A+xWQ1Zi10V0UY739J9l5Td0vKUSilBTxOQwky7hQHEeQSihKyqLFRzZTY7HcK10jYgxrmsJIcLs38vdc/w17nEXPEfVdTwmpjpyZHNB0ZYbX31B5oObU1ZvHqSL1hdEGAOd8ZA/p/SEXLIllLjsLwPEWEjZ4tb1GilqZl1ccoOP0s6kF3do9LKiKGTwE8z9ElmmRdFP/h+pW15Gp4vpDz4jb5oWrktfkFPTu8JPM/RAVtyLc1szijcqElXKBclL/vGYaed+nD1Kz2iOQFKcSqu6YGjV1r+p/gaIcpUegw4u0VXuFy1rYyRmu62ttcoOgaBxJPzSSHHAx5PxO1F76NPEA/uL38kIbkDU6h17bukzFrrHnbKAeAJKDgaL6kMaN8mrj0B4lLPLJvQ5DCknY9GPSucGgWubAuabE8gb6HzTuiqJA4B8zBf8OU+z7gX6WS7AaWFzTI0a34k5b23AO4FyLnU2J4oiope8za2DdS4AkjyA4o0bq7F5qErS0v4LVFVBhGYaHZwNx8+B80dMxr26G49wqthFfdnduka/Sxu2x+VyERQ4jkdkJ0Pwn9j1RkzmZONNO15RLidOQBx1FncxxTCggdbdZrHBzAOB49dwVJh8myqtmJTk8YbA0g9QoqqQNfbbQFNAy4BSjH4suR/9J+o/daktCWOalOmTBzXDK4BwO4IBB8wVVsa+zmmlPeU//p5N8oF4XebPwebfkU8pHXTGNyEis2GL8nHcSw+WneY5W5XbgjVrh+Zp4hauFxcb/wB7rqnabBW1UJYdHjWN/Frv3adiP3AXJC9zHOY8Wc0lrhyI0KxJUcnPi6MKpZ76HQ8QpprAXS6Y3Ic3Q/VaCt0s691kANe9d0WUo+9j+wvKEAMQpw7RVyeEtKtMjrpdiMQIWb2RaF9PWFpBHAg/JdXwzLMGu+IANLWjiXbHzXJaekc42AXQvsyL21UULjdpzkdMrHOt5XCBmwLI1RuMbkjosVIGa7u4u3seTf5WzXFFTNuoiyychBQVI7mGKiqRo4XUTHFpI4H2KIyqGXVEQ2t6GtKf8IeZ+qGlkANzwK2pHWiAPX6oGufoVsDihcmvuIu2TbwucOX10VTklLpGX1zRtt5tsD7tPzVukb30MsF/FlJZ5f7G3zVQpwD/AIb7sc1xym1y13FpH7JXIm2eg4bqDi/MfweoacmNzXaFrs2vA7FLsUoXNZnB8Ogv0JI9jofMK5UbL+JrWytIyuDT4m87A626cFK3DImgtObI4g5ZG3yniCCNtvktLEmi8nIW0Kuz8Eoha9rAbtBANweXHS2miYSVTms8Vg7chtrDkLjdMZo3HRoGW1gQRYIR2GNItI434ZTt5kjVFUaVAYzi3chFIc93x6SDVwH4hz8/qtBWvs8vBFmjUgizu8YR66H3TUYExhz/AHjLb9Iv87pizCo3xmSZrntZYnQxsPEEi/iHULDjJhcnIxJV5X+f4J4qu9Mx993i1+NgQUxw+a7vMAqr4ziYsxrbAAtAA0a1ovYAck3wOe5HktqW6EsuBrG5NebLzA7wofF4w6Ig9D63Xu/DGEniLAcyVFiEhETb7kj+/ZEl4ODGL7p/cVwxkFMYUM0XCngCEkNZGFDZci+0ykdFWd4B4Z2B9/1s8Dx8gw+q7HHHoqB9s0IFPTv4iYt62dG4n/oCk19JzeTTgzmbakrDpr76pe6QrLJiTZJuRzg3OF5CrKz3ZVBt1GY7lRukW8UoK22QLhjA2T3srUCOrgedAJA0nkJAWEn/AIkjgaj2jSykbuzUXTs7JPFqUO9tkJ2dxjv6ZrnH/Ej8EnMkDwv/AKhr535Il8ibuzv4Zd4po8tT0WoK2JVoYoNaAWgjy8kvqYlLTP1I5hZcrMQuLKpUzdzPE87Z8rv9LmuH1sfRM8XwOCS73MN7auj0fbmPzeSG7VUJdEXNGrCHW5gb26ozszV97TtN7lpLD6fD7WWa2P5JPpHLF0/DFDuyjy0S004ffnpmt+Yj8Xp5qeKkrWixaT/U0j3K9j+FyDNJA97C7V7WOLQ+3E2O6qja2UHWR55gud+6u0hrBjyZo32T/lbLq2lmHxQAdWuaPa6z91B/C49MzQPndVulryd3E+ZKcQV6vsjM8GWP/P8A2EEsiOeVrA1vwhhLpCeeZw8Hpc9VXq/tGZbQlmWHUlmZxcTe4c551J0U2PVWZhVVZJc3Q5z9kMcfiQ/fPb/BYZsGz2dE8EblshselnAWPsrFg0kdP8Z7yYj4GXytHC7z/Hoq5QVRADG6uOw/c9FZ8Gwy2p1cdSeZUi96B8xvr1nLQ8oM8rg9/DYDYeSlxWTM9sY/DqfM7e31RNMzKLDfh06lFUlEGjmTqXHcnmj1o87PJFTv48AMUBAWlM8Z3C+xHpoEXilUyFhc7QbDmSdgOqTYRIXEuO7iSfXgsMuLc02WKJy5/wDbTrDTD9cjvk0D/wDSvTGKpfalhzXUrJfxxyhoNz8MgIcLbbtafRVP9rEeRH6WcYFG4rAgITosICHlbokfBzbFq8p8qws9idweQqOObKboF1U4rTviiLGzVFrpJMw0TOFqo9NWPZ8JRzcdeAiKLROp0zskX9/4DpkPeci3gPPMQrcRfVcZ7M9tH004e5ueNwySNvY5SQczeote3HULtzIw9rXxkOY5oc1wNw5pFwQVtOkdXg5FGNEAKwXLaW4+Jp8xr7LSB7C9ozAXc0a6G5IAFvVWpp6s6PqRqx5TUOVmo8R1P8IWWKysEjUsqYtUYQxZm3sUzMVepsOkpZXSReKF/wAcf4m9WcDbXTkbKzSs1U8EIcwjiFVHQWbpH7MXPIc241BVZxzBA/xN0d9fNWaaiew3YPNp2P8ABQ7pAdCMp5Hf05qmhjj5nB3FnODdjiCLEbhGxVnVWLFsJbINdDwI3CpFdBJE/IWkk/DlBOYcxyQZOjuQ5EMkbYTi1YMh66D1SVs4HU8kzp+zlVOQSzKOF1aMH7CW1csqLYpk5cYu7pAPY2nuHPfuTx5DYBdBoIjbwj1Oy2wzAGR20T2OIAJjHjrycXl81TegWCAjr1RgK1lc1rS5xsALkqmVfaGZ73BhyMB8Nh4iOZJ/ZElJIRhjlmegzthETJFf4crredxf2IUmFx2CUw5nG7iXHmSSfmU6pNEO7djVdIKI1jcknbsROo3iR4aQQ6Pm6Rt7NA43Fx0vfgjJqiy5N2r7QOnqT/8AXHdkfX8z/U+wCzkmoo53IklEAlaUJIt31JKge5IykctmMoWFheQrKKuiqWjc86bc0MjKWvLdOC6Dv2Cjujwtjd9UVNhsbh8IS+HFGEamy3dirRsboezGxbX4cYzfgu+fZPT/APtNOSb3MpHQd6/T6rmHZvBJq+VsLR4Tq952jZxd1OtgOJIXesMw6OCGOnibljiaGNG5sOJPEncnmVuFtDOG/JBPTDkhosEaXB7hqCHAdWkOBPW4CeNYFs9aWNXbGPVfhGCEJURolkgOnFayNRjMW0xHUMI4IYVZjcHDXmOYTyViXVMDTwVD+PIpKmHRubI3Mwgg+3QoWrw9rxZzb/3uORVcrKV7Dmjc5p5tJCXO7VVsWhySgfnaQ7/iaR9FTkvcLHi5PON2Mq7AZ8w7uoIZxa5jXO8mvP7goqkwhgPi1dzduksXb55+Ol1/RJp7tWZO25NrUvEXzSDbjazd1VwD9eTVV+C5QUQGwCMjhsqhSdrYD8QfGeouPm1Ef+a4fwiR3UCw9ytqcRSeHK3stdgENUYhGzdw8uPyVcf2jY7/AOJx8yEM/FgfhhaPM39gFHNGY8Z/3BGMYo6XT4Ywb258if4SWGK5JWX5nm5PpwHojqeOyE3bGXJQXWITTRWCLa6wQ4eAgMQxdkYNzd3Bo3/2C0LSmD9p8Tyt7pp8Thr0bx9Tt5XXOK5h713n+wT6aVz3ue7dxv8AwAk2JH/Ed6fQIGZ2jncl6AytQLrcgDdaF6TbQkZyLy1zLyq0UVZZCIqKCRm7fUaqOGK5T6kmrTCmI4y7ZOMOw63icFrTRBqNbKdAhSyfBTZeexnan7m1ze5Dg94Mj8xD8gFmtaNtDmOu+bguv0tWyRjZI3BzHtDmuGxB2Xz1TP8ACfJM+wfbZtBK+CfN3Ejg4OFz3L9nEt4sOl7bEXsblXhytvqwuOe6Z3fOtC9BQVjZGtkY4OY8BzXNN2uaRcEHiFIZdLpkaUTWfmh3Yk9u4DvYqd5S6cXVWHhFPyZkxxo+JhHUEFbR1IeLtNwUmq2aoCKsMTiRqDuOB/3VdvkYWOKWixTtul0mHA8EbSSCSzh8JF01FPpst1ZtZ3jKVU4K3kgX4VZXSoiF0K+AFDcRmPJsp7qHoojARtdWuSjQM9Es9S3mTRX3VjmbgOHyKIixaPi1w9Af3WuJQ2FuN9kEyBTYvLIN48Vi4Zj6W/dZlxm3wsP9R/hJxCQiYm3WrYtORtPiczhuG/6Rr8yljmm9+PVN46a6w+iUAuQqa1IMSm/xHW529grZLDZUKpqmlzje93E6eaXz3SQnyGblywFpGCeFgpw2yVoTNMpXluvK6JYQ2UFYNOw/hCV0VJLf4tE8EWUXJQ5YpR/absENDyK1FORupJK9o0BWhq7qlOa8ko0pKghxBGiCxVvi2THvQVDI0OctRyNSstaNOz/bKtovDDLePX/BlBfEL63a24LTfkQrdgX2rTd6fvkbTGbAGBuUxkXucric4Nxx0toqbLQtJUL6E8E7HkJhY5GjsbPtJw9xDe8e0H8To3ho6Ei9vPbqpJe2lI53dxPdIeL2sdkaBrubF19tLrif3JwN/ZX3BcMbEy7uAu7mT+UdeCHm5XRaCrkyRZqvG83+Uwu6u8IA49SUixGukN7kMB/Ly6uOvyTtkBaxua1y25tsOnolGHQiSVz3C7IWl5HN34B9Fz/1OXJKrNwzzn7jDs92kbSRuikYXZTmiDbXIeMxBJ28V9ep00SPH+39dI4d3J3EYPwRAZj/AKpHC59LDoh8YeXOzHe5PmHHUfNIKsapiPJnSjZUsiki+YH2rmOUTSZwTlu4C/6TmFvfmFbIsQYd7j++i47QS3iLfyv9iP8AZXns7Xd5GA742ix5uHByew5G9M3gzu+rLY7EIhu72P8ACVYli4ItECP1O/YKN8KhdTIw52FbWXJJ1N+O6kEWqObSWWHx2VFOQM6NRBtjdFv2QkrlALkFwuCOZHdJIJVtUdoI4dHXcR+Fo+pOgUbS8g5SSVsnxtgZG9xIaA1xufLT3suXRThtvCE8x/H5al2vhjG0Y+rj+I+wSGaOx6cErkkpvQllydnoYCqvwW7JweCWxSWRDSgVQANzjkvIVeWiBuayHrZ7NNzvsj2UWupQ+JUQIRnFllfs0oyRgyhRGjsUSGmyE1ZtSM0eXiUwFOzcFJS+xUrJ+qFKLJY0dT9VC5tkN98txXjibOJWesvgnkNoYgZGX2zD/ZXiKxA5Xv6hUimkBAcPMK10lUTGwt43B8+KFyMbpMyx5iNSO4zcmuHuP5Sulb3dI7nJI2552Gb+EHWF7mNYLkZiLcBqN/dYxyvLYY4W2LgC48LF21z5AH1WcMKTl8jUF1xt/IsxGVo3Ou9uOirk8t1O+AglxeCTvc8OXkhLjjc9Bx9eCPDFTBBuE7G/EpxDUlrg5psRsUhpJgB1JuenID0UpxFo6lNw0Y9zp+BYuycBhs2X8v5rblvPyTptMuFCSR8geHFpaQWkEgtI2II4rqXZvta5zQyoZmcB/mMsCermbX8vkjxypumPYs1qmWF1OltUyxTltbE4XDx6+H6pViRsUQM2LZ3bpXNIiKyaypmJY64ktiNuBf8A9v8AKzKSQGc1HbH9ZibIgfEM9jlba5vbQkcB5quyOuASbk3vfieaWRNO6YMGgS05OQlkyObIS1eqWXZ5KctXi2+iyogxUxENdZBPqMri3kVs2qzEe6jgyUwvvF5a97HzXlimTqy0xHRRy6qKnJOgRZjA8035IJahgQpKZYg0AXSXvgSgtUyGZWhaCMKSTZQF60y0QVzdEtIR1U+6ijhBWk6RtD7BJw5gHEJ5SVbmaA6E3sdr81V6CLIbhOW1jLanVBlUtFNFrpcWAGZ7QHOcCdsuZxAFrbAqsYxK3OS0l1uJFtd3G3+olEPxCNsdmXLjxOzeo5lV+pny7E3QIwkwvqNrqekeShzvqoPvmuo99PZSDVF6NA3oLqGWPQ6oSMcUwl8UXUfRBRjQqEegmmnAVjwXE42u1I108lTnROtfgtWxmy0o1s3FpbOoVHaGBjSc40HzVDqO2FR3znxOsw/gcLtPW3A+VlXqjMDYkreBiOnWy3kfsWKv7SSSsyhoYTo4g305N5XSpmijAUrWXQ5NsHKTl5C4XoyN6UElvUIqnnQwbQdmXrqAvXg9asoT4xFaS/PVYibpYIrE9bIeJab0bTPZF5S2Xlmy7P/Z" alt="Rose">
+  
+<!-- by downloaded image  , downloaded image will be in same folder-->
+
+<img src="sunflower.jpeg" alt="Sunflower">
+
+<!-- Attributes of image height,width  ,If we just give one height or width  like fi we give width height will automatically adjusted-->
+ <img src="sunflower.jpeg" alt="Sunflower" width="60px">
+
+
+ 
+<!-- Video tag   ,, simple video tag always come without controls  -->
+<!-- <video src="fish.mp4 "></video> -->
+
+
+
+<!-- Video tag  with controls -->  
+<video src="fish.mp4" controls width="220"></video> <br>
+
+<!-- Video tag  with controls muted when website is open -->  
+<video src="fish.mp4" controls muted width="220"></video><br>
+
+<!-- Video tag  with controls with always play video -->  
+<video src="fish.mp4" controls muted autoplay width="220"></video> <br>
+
+<!-- Video tag  with controls with always play video  on loop  with muted -->  
+<video src="fish.mp4" controls muted autoplay loop width="220"></video><br>
+ 
+ 
+
+</body>
+    </html
