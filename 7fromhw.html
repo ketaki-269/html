@@ -4,6 +4,7 @@
 <!-- Label tag - The <label> tag is an HTML element used to define a text description (label) for a form control, such as an <input>, <select>, or <textarea>. -->
 <!-- The <fieldset> tag is used to group related elements in a form, especially input fields, to organize and structure the form logically. -->
 <!-- Legend - The <legend> tag is used to define a caption or title for a <fieldset> element, which groups related form controls. -->
+<!-- for dropdown we can use select tag  -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,8 +14,9 @@
     <title>Document</title>
 </head>
 <body>
+  <img src="register.jpeg" alt="Register" width="500" height="60">
   <h1>From</h1>  
-<form>
+<form align="left">
 <label for="username">Username:</label>
 <input type="text" id="username" name="username"> <br><br>
     Enter Name: <input type="text" required> <br> <br> 
@@ -28,6 +30,13 @@
   <input type="email" id="email" name="email">
 </fieldset> <br><br>
 
+Select City <select >
+  <option > Bhopal</option>
+  <option > Indore</option>
+   <option > Kashmir</option>
+  <option >Agra</option> 
+</select><br><br>
+
     Enter Password: <input type="password"> <br> <br>
     Enter Date of Birth: <input type="date"> <br> <br>
     Enter Eye color : <input type="color"> <br> <br> 
@@ -35,6 +44,7 @@
                    <input type="radio" name="Gender">Male
                    <input type="radio"name="Gender">Female
                 <input type="radio"name="Gender">Other <br><br>
+
     You are not Robot : <input type="checkbox"> <br> <br>
     <input type="submit" value="Sign up ">
 </form>
