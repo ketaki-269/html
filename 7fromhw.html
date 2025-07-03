@@ -1,0 +1,42 @@
+<!-- home work for today   -->
+<!-- define and use of these tags in the form label tag,fieldset and legend  -->
+
+<!-- Label tag - The <label> tag is an HTML element used to define a text description (label) for a form control, such as an <input>, <select>, or <textarea>. -->
+<!-- The <fieldset> tag is used to group related elements in a form, especially input fields, to organize and structure the form logically. -->
+<!-- Legend - The <legend> tag is used to define a caption or title for a <fieldset> element, which groups related form controls. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>From</h1>  
+<form>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username"> <br><br>
+    Enter Name: <input type="text" required> <br> <br> 
+    <fieldset>
+  <legend>Contact Details</legend>
+
+  <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="phone">
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+</fieldset> <br><br>
+
+    Enter Password: <input type="password"> <br> <br>
+    Enter Date of Birth: <input type="date"> <br> <br>
+    Enter Eye color : <input type="color"> <br> <br> 
+    Gender : 
+                   <input type="radio" name="Gender">Male
+                   <input type="radio"name="Gender">Female
+                <input type="radio"name="Gender">Other <br><br>
+    You are not Robot : <input type="checkbox"> <br> <br>
+    <input type="submit" value="Sign up ">
+</form>
+</body>
+</html>
