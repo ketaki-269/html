@@ -1,0 +1,7 @@
+to open vscode--  selected folder ke path pe path ke jagah cmd 
+then cmd me jane ke badh 
+cmd me code . enter kerdena
+ 
+extension- 
+c++-.cpp
+javascript- .js
